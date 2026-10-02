@@ -1,7 +1,7 @@
 {
   "model_version": "1.0.0-PhaseII",
-  "training_timestamp": "2026-10-01T16:51:54.643230+00:00",
-  "best_model_name": "CatBoost",
+  "training_timestamp": "2026-10-02T15:58:01.280061+00:00",
+  "best_model_name": "Random Forest",
   "dataset_total_sessions": 12330,
   "train_sessions": 9764,
   "test_sessions": 2441,
@@ -33,18 +33,18 @@
     "Weekend"
   ],
   "evaluation_metrics": {
-    "Model": "CatBoost",
-    "Accuracy": 0.8693,
-    "Precision": 0.5535,
-    "Recall": 0.8534,
-    "F1-Score": 0.6715,
-    "ROC-AUC": 0.9352,
-    "PR-AUC": 0.7482,
-    "CV F1 (Mean)": 0.6581,
-    "CV F1 (Std)": 0.0125,
-    "CV ROC-AUC": 0.9315,
-    "CV PR-AUC": 0.7505,
-    "Train F1": 0.707,
-    "Train ROC-AUC": 0.9605
+    "Model": "Random Forest",
+    "Accuracy": 0.8837,
+    "Precision": 0.6008,
+    "Recall": 0.7644,
+    "F1-Score": 0.6728,
+    "ROC-AUC": 0.9297,
+    "PR-AUC": 0.7211,
+    "CV F1 (Mean)": 0.6767,
+    "CV F1 (Std)": 0.0118,
+    "CV ROC-AUC": 0.9278,
+    "CV PR-AUC": 0.7404,
+    "Train F1": 0.7906,
+    "Train ROC-AUC": 0.9838
   }
 }
